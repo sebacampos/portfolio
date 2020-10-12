@@ -1,0 +1,41 @@
+{
+  "author": "Sebastian Campos",
+  "name": "sebastiancampos",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "next",
+    "@chakra-ui/icons": "^1.0.0-rc.5",
+    "babel-plugin-styled-components": "^1.11.1",
+    "next": "latest",
+    "next-seo": "^4.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.11.0",
+    "react-text-loop": "^2.3.0",
+    "react-tsparticles": "^1.17.12",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "prettier": "^2.1.2",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
