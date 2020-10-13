@@ -3,7 +3,7 @@ import siteConfig from 'config/site'
 export default {
   title: `${siteConfig.details.title} - ${siteConfig.details.tagLine}`, // max: 65
   description: siteConfig.details.description, // max:155
-  // canonical: siteConfig.details.url,
+  canonical: siteConfig.details.url,
   twitter: {
     handle: siteConfig.socialLinks.twitter,
     site: siteConfig.socialLinks.twitter,
@@ -19,8 +19,8 @@ export default {
     images: [
       {
         url: `${siteConfig.details.url}${siteConfig.assets.avatar}`,
-        width: 800,
-        height: 600,
+        width: 728,
+        height: 728,
         alt: siteConfig.details.title,
       },
     ],
