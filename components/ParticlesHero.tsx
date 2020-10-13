@@ -17,8 +17,11 @@ const HeroContainer = styled.div`
     0% {
       opacity: 0;
     }
-    20% {
-      opacity: 0;
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
     }
     100% {
       opacity: 1;
