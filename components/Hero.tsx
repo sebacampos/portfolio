@@ -48,12 +48,15 @@ const Hero: FC = () => {
               shadow="xl"
               rounded="full"
               boxSize="xs"
+              htmlWidth="728px"
+              htmlHeight="728px"
               objectFit="cover"
               border="solid 2px"
               borderColor={sectionColor[colorMode]}
               src={siteConfig.assets.avatar}
               alt={siteConfig.details.title}
               className="avatar"
+              loading="lazy"
             />
           </Link>
         </Stack>
