@@ -8,7 +8,7 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{`${siteConfig.details.title} - ${siteConfig.details.tagLine}`}</title>
+        <title>{`${siteConfig.details.title} | ${siteConfig.details.tagLine}`}</title>
       </Head>
       <NavBar />
       <ParticlesHero />

@@ -82,9 +82,9 @@ const Hero: FC = () => {
             mask={true}
             noWrap={true}
           >
-            <Text> Bachelor of Software Information Systems</Text>
             <Text>{siteConfig.details.tagLine}</Text>
-            <Text> Full Stack Developer</Text>
+            <Text> Bachelor of Software Information Systems</Text>
+            <Text> Software Developer</Text>
             <Text> Entrepreneur</Text>
             <Text> Surfer</Text>
             <Text> Wanderlust</Text>

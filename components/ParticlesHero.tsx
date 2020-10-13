@@ -12,21 +12,21 @@ const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  animation: fadein 2s;
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-    25% {
-      opacity: 0.25;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+  // animation: fadein 2s;
+  // @keyframes fadein {
+  //   0% {
+  //     opacity: 0;
+  //   }
+  //   25% {
+  //     opacity: 0.25;
+  //   }
+  //   50% {
+  //     opacity: 0.5;
+  //   }
+  //   100% {
+  //     opacity: 1;
+  //   }
+  // }
 `
 
 const ParticlesHero: FC = () => {

@@ -1,7 +1,7 @@
 export default {
   details: {
     title: 'Sebastian Campos',
-    tagLine: 'Software Developer',
+    tagLine: 'Full Stack Developer',
     description: 'Personal portfolio of Sebastian Campos',
     url: 'https://sebastiancampos.com.ar',
   },

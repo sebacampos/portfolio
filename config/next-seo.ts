@@ -14,7 +14,7 @@ export default {
     locale: 'en_IE',
     site_name: siteConfig.details.title,
     url: siteConfig.details.url,
-    title: siteConfig.details.title, // max 35
+    title: `${siteConfig.details.title} - ${siteConfig.details.tagLine}`, // max 35
     description: siteConfig.details.description, // max 65
     images: [
       {

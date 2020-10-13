@@ -2,6 +2,16 @@
   "author": "Sebastian Campos",
   "name": "sebastiancampos.com.ar",
   "version": "1.0.0",
+  "keywords": [
+    "next.js",
+    "portfolio",
+    "developer",
+    "react",
+    "javascript",
+    "fullstack",
+    "desarrollador",
+    "programador"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -37,5 +47,6 @@
     "prettier": "^2.1.2",
     "typescript": "4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }
